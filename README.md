@@ -1,15 +1,19 @@
 # Music Player for Android
 
+<div align="center">
+  <img title="Music Player" src="https://github.com/gcch/music-player-for-android/blob/master/img/ic_menu_player.png">
+</div>
+
 ## Overview
 
-Android �����̍L���̂Ȃ��A�V���v���ȉ��y�v���C���[���~�����Ǝv���č��n�߂����y�v���C���[�A�v���B
+Android 向けの広告のない、シンプルな音楽プレイヤーが欲しいと思って作り始めた音楽プレイヤーアプリ。
 
-��{�I�ȉ��y�Đ��A�^�O���\�����炢�܂ł͂ł����͂��ł����A�r���ō��܂����̂ŁA�ǂ��܂łł��Ă��邩�͎��O�B
+基本的な音楽再生、タグ情報表示くらいまではできたはずですが、途中で挫折したので、どこまでできているかは失念。
 
 
 ## Development Environment
 
-Android Studio �ɂĊJ���B
+Android Studio にて開発。
 
 
 ## Links (Libraries)
