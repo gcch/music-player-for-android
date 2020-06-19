@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 tag
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/track_detail_padding"
+    android:paddingRight="@dimen/track_detail_padding"
+    android:shrinkColumns="1" >
+
+    <!-- 曲名 -->
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView_track_detail_title"
+            android:padding="@dimen/track_detail_padding"
+            android:text="@string/track_detail_title"
+            android:textSize="@dimen/track_detail_textsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_track_detail_title_value"
+            android:padding="@dimen/track_detail_padding"
+            android:text="@string/track_detail_value_default"
+            android:textSize="@dimen/track_detail_textsize" />
+    </TableRow>
+
+    <!-- アーティスト名 -->
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView_track_detail_artist"
+            android:padding="@dimen/track_detail_padding"
+            android:text="@string/track_detail_artist"
+            android:textSize="@dimen/track_detail_textsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_track_detail_artist_value"
+            android:padding="@dimen/track_detail_padding"
+            android:text="@string/track_detail_value_default"
+            android:textSize="@dimen/track_detail_textsize" />
+    </TableRow>
+
+    <!-- アルバム名 -->
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView_track_detail_album"
+            android:padding="@dimen/track_detail_padding"
+            android:text="@string/track_detail_album"
+            android:textSize="@dimen/track_detail_textsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_track_detail_album_value"
+            android:padding="@dimen/track_detail_padding"
+            android:text="@string/track_detail_value_default"
+            android:textSize="@dimen/track_detail_textsize" />
+    </TableRow>
+
+    <!-- 年 -->
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView_track_detail_year"
+            android:padding="@dimen/track_detail_padding"
+            android:text="@string/track_detail_year"
+            android:textSize="@dimen/track_detail_textsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_track_detail_year_value"
+            android:padding="@dimen/track_detail_padding"
+            android:text="@string/track_detail_value_default"
+            android:textSize="@dimen/track_detail_textsize" />
+    </TableRow>
+
+    <!-- ジャンル -->
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView_track_detail_genre"
+            android:padding="@dimen/track_detail_padding"
+            android:text="@string/track_detail_genre"
+            android:textSize="@dimen/track_detail_textsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_track_detail_genre_value"
+            android:padding="@dimen/track_detail_padding"
+            android:text="@string/track_detail_value_default"
+            android:textSize="@dimen/track_detail_textsize" />
+    </TableRow>
+
+    <!-- 製作者 -->
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView_track_detail_producer"
+            android:padding="@dimen/track_detail_padding"
+            android:text="@string/track_detail_producer"
+            android:textSize="@dimen/track_detail_textsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_track_detail_producer_value"
+            android:padding="@dimen/track_detail_padding"
+            android:text="@string/track_detail_value_default"
+            android:textSize="@dimen/track_detail_textsize" />
+    </TableRow>
+
+    <!-- 製作アーティスト -->
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView_track_detail_producerArtist"
+            android:padding="@dimen/track_detail_padding"
+            android:text="@string/track_detail_producerArtist"
+            android:textSize="@dimen/track_detail_textsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_track_detail_producerArtist_value"
+            android:padding="@dimen/track_detail_padding"
+            android:text="@string/track_detail_value_default"
+            android:textSize="@dimen/track_detail_textsize" />
+    </TableRow>
+
+    <!-- 作曲者 -->
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView_track_detail_composer"
+            android:padding="@dimen/track_detail_padding"
+            android:text="@string/track_detail_composer"
+            android:textSize="@dimen/track_detail_textsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_track_detail_composer_value"
+            android:padding="@dimen/track_detail_padding"
+            android:text="@string/track_detail_value_default"
+            android:textSize="@dimen/track_detail_textsize" />
+    </TableRow>
+
+    <!-- 作曲者2 -->
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView_track_detail_composer2"
+            android:padding="@dimen/track_detail_padding"
+            android:text="@string/track_detail_composer2"
+            android:textSize="@dimen/track_detail_textsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_track_detail_composer2_value"
+            android:padding="@dimen/track_detail_padding"
+            android:text="@string/track_detail_value_default"
+            android:textSize="@dimen/track_detail_textsize" />
+    </TableRow>
+
+    <!-- コメント -->
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView_track_detail_comment"
+            android:padding="@dimen/track_detail_padding"
+            android:text="@string/track_detail_comment"
+            android:textSize="@dimen/track_detail_textsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_track_detail_comment_value"
+            android:padding="@dimen/track_detail_padding"
+            android:text="@string/track_detail_value_default"
+            android:textSize="@dimen/track_detail_textsize" />
+    </TableRow>
+
+    <!-- Format -->
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView_track_detail_format"
+            android:padding="@dimen/track_detail_padding"
+            android:text="@string/track_detail_format"
+            android:textSize="@dimen/track_detail_textsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_track_detail_format_value"
+            android:padding="@dimen/track_detail_padding"
+            android:text="@string/track_detail_value_default"
+            android:textSize="@dimen/track_detail_textsize" />
+    </TableRow>
+    
+    <!-- Encode Type -->
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView_track_detail_encType"
+            android:padding="@dimen/track_detail_padding"
+            android:text="@string/track_detail_encType"
+            android:textSize="@dimen/track_detail_textsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_track_detail_encType_value"
+            android:padding="@dimen/track_detail_padding"
+            android:text="@string/track_detail_value_default"
+            android:textSize="@dimen/track_detail_textsize" />
+    </TableRow>
+    
+    <!-- Bitrate -->
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView_track_detail_bitrate"
+            android:padding="@dimen/track_detail_padding"
+            android:text="@string/track_detail_bitrate"
+            android:textSize="@dimen/track_detail_textsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_track_detail_bitrate_value"
+            android:padding="@dimen/track_detail_padding"
+            android:text="@string/track_detail_value_default"
+            android:textSize="@dimen/track_detail_textsize" />
+    </TableRow>
+    
+    <!-- パス -->
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView_track_detail_path"
+            android:padding="@dimen/track_detail_padding"
+            android:text="@string/track_detail_path"
+            android:textSize="@dimen/track_detail_textsize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_track_detail_path_value"
+            android:padding="@dimen/track_detail_padding"
+            android:text="@string/track_detail_value_default"
+            android:textSize="@dimen/track_detail_textsize" />
+    </TableRow>
+
+</TableLayout>
